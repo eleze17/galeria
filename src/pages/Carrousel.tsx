@@ -1,13 +1,13 @@
-"use client"
+
 import { useEffect, useState } from "react";
 import {apiGet} from '../apis/traeImagenes'
 import Image from 'next/image'
 import Carousel from 'react-bootstrap/Carousel';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./carrousel.css"
+import type { NextPage } from "next";
 
-
- const Carrousel  =  ()  => {
+const Carrousel: NextPage  =  ()  => {
   const [imagenes, setimagenes] = useState([]);
   
 
@@ -52,3 +52,4 @@ import "./carrousel.css"
 }
 
 export default Carrousel
+  

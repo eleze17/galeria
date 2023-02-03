@@ -19,7 +19,7 @@ const uploadMiddleware =  imagenes.array('archivos')
        res.send("cargar imagenes")
     }
     else*/
-    res.status(200).redirect('../')}
+    res.status(200).json({mensaje:'imagenes cargadas'})}
 )
     
        
