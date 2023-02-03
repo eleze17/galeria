@@ -13,14 +13,14 @@ const apiRoute = nextConnect({
   });
 const uploadMiddleware =  imagenes.array('archivos')
   
-     apiRoute.post (uploadMiddleware,(req:Express.Request, res:NextApiResponse)=> {
+     apiRoute.post(uploadMiddleware,(req:Express.Request, res:NextApiResponse)=> {
    /* if (req.file?.originalname === undefined) {
         let respuesta = 'por favor cargar imagenes'
        res.send("cargar imagenes")
     }
     else*/
-    res.status(200).json({mensaje:'imagenes cargadas'})}
-)
+    res.status(200).redirect('../../carrousel')}
+     )
     
        
     export const config = {
