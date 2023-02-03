@@ -19,7 +19,7 @@ const uploadMiddleware =  imagenes.array('archivos')
        res.send("cargar imagenes")
     }
     else*/
-    res.redirect('../')}
+    res.status(200).redirect('../')}
 )
     
        
