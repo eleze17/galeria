@@ -1,0 +1,32 @@
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:2rem;
+}
+button,input{
+    background-color: white;
+    height: 70%;
+    color:violet;
+    border-radius: 30px;
+    box-shadow: 5px 5px;
+    
+}
+
+.form-group-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:2rem;
+}

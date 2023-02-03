@@ -1,0 +1,29 @@
+button{
+    visibility: hidden;
+}
+
+
+.carousel{
+          min-width: 100%;
+          min-height: 500px;}
+
+.carousel-inner{
+   
+min-width: 100%;
+height: 100%;}
+  
+  
+
+
+
+
+.car-item{
+           
+    width: 100%;
+    height: 100%;
+ }
+
+ .div_relative{position: absolute;
+
+    width: 100%;
+    height: 100%;}
